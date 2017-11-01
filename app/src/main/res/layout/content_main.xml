@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.karrar.prog.askandpush.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <EditText
+                android:id="@+id/my_add"
+
+                style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:contextClickable="true"
+                android:hint="اكتب هنا ..."
+                android:shadowColor="#0004d6"
+
+                android:textSize="20dp" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:gravity="center"
+           android:background="#ffffff"
+           android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/my_recive"
+android:layout_margin="10dp"
+
+        android:textSize="25dp"
+        android:contextClickable="true"
+        android:textIsSelectable="true"
+        android:layout_height="match_parent"
+        android:text="اكتب شيء"/>
+
+
+
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

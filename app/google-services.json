@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "929690400821",
+    "firebase_url": "https://askandpush-f7151.firebaseio.com",
+    "project_id": "askandpush-f7151",
+    "storage_bucket": "askandpush-f7151.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929690400821:android:d4ecc51bd49bdf0c",
+        "android_client_info": {
+          "package_name": "com.karrar.prog.askandpush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929690400821-sv5c24iosg8p06dof7p7ovt887ihl0ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karrar.prog.askandpush",
+            "certificate_hash": "d22d0671aa7839be29d2c6aa10d86b8ca0aac642"
+          }
+        },
+        {
+          "client_id": "929690400821-mg7ek1ep4pmmep00fkf9c8ii0de1k5rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBE-oxJ58hhnEu4jE8mB9TJlhc6PjDCHo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929690400821-mg7ek1ep4pmmep00fkf9c8ii0de1k5rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
