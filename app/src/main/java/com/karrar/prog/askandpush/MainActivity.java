@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
                 String s = my_add.getText().toString();
                 myRef.setValue(s);
                 my_add.setText("");
+
+                DatabaseReference myRef2 = database.getReference("username");
+                myRef2.setValue("كرار");
+
             }
         });
 
